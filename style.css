@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #507DBC;
+}
+
+section{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #DAE3E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+hi{
+    text-align: center;
+}
+
+label, input[number], button{
+    display: block;
+    width: 100%;
+    padding: 2px;
+    margin: 15px 0;
+}
+
+button{
+    padding: 10px;
+    background-color: #A1C6EA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #507DBC;
+}
